@@ -120,6 +120,11 @@ export const SkillData = [
 
 export const Socials = [
   {
+    name: "Github",
+    src: "/github.png",
+    link: "https://github.com/vaibhavSrivastava-pro"
+  },
+  {
     name: "LinkedIn",
     src: "/linkedin.svg",
     link: "https://www.linkedin.com/in/vaibhav-srivastava-8a777125a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
