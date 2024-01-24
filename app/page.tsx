@@ -70,7 +70,7 @@ export default function Home() {
       </div>
 
       <div className="absolute bottom-0 right-0 z-[10]">
-        <Image
+        <img
           src="/horse.png"
           alt="horse"
           height={300}
