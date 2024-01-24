@@ -120,9 +120,9 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Instagram",
-    src: "/instagram.svg",
-    link: "https://www.instagram.com/vaib.hav.sriv/"
+    name: "LinkedIn",
+    src: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/vaibhav-srivastava-8a777125a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
     name: "X",
@@ -130,9 +130,9 @@ export const Socials = [
     link: "https://x.com/itsrivaibhav?t=XWnNUkZcPG3d-FIEzHHk2w&s=09"
   },
   {
-    name: "LinkedIn",
-    src: "/linkedIn.png",
-    link: "https://www.linkedin.com/in/vaibhav-srivastava-8a777125a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    name: "Instagram",
+    src: "/instagram.svg",
+    link: "https://www.instagram.com/vaib.hav.sriv/"
   },
 ];
 export const Projects = [
