@@ -143,6 +143,12 @@ export const Projects = [
     link: "https://www.linkedin.com/in/vaibhav-srivastava-8a777125a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
+    title: "Living Lores",
+    text: "A full-stack website, 'Living Lores,' using Next.js 14 and MongoDB, offering a dedicated platform for aspiring story writers. Seamlessly integrating front-end and back-end technologies, the project provides a dynamic space for creative expression and storytelling.",
+    src: "/livinglores.png",
+    link: "https://living-lore.vercel.app/"
+  },
+  {
     title: "3D T-shirt Designer",
     text: "An application built with React that facilitates the design of 3D T-shirt models, offering users the ability to customise colours, upload personalised images, and transform their creative ideas into tangible designs.",
     src: "/3dtees.png",

@@ -15,7 +15,7 @@ export default function Home() {
             Hey there, I create{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
-               Websites,{" "} ML models{" "} and{" "} Other cool stuffs{" "}
+               websites,{" "} ML models{" "} and{" "} other cool stuffs{" "}
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
