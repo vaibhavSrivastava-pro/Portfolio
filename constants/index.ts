@@ -161,6 +161,12 @@ export const Projects = [
     link: "https://github.com/vaibhavSrivastava-pro/AnxietyPredictionModel"
   },
   {
+    title: "Drive Drowsiness Detection Model",
+    text: "A driver drowsiness detection model utilizing CNN and computer vision. Implemented a robust system to identify drowsiness, providing timely alerts to enhance road safety",
+    src: "/drowsiness.png",
+    link: "https://github.com/vaibhavSrivastava-pro/DriverDrowsinessDetection"
+  },
+  {
     title: "Facial Emotion Detection Model using CNN",
     text: "A machine learning model predicting video gaming-induced anxiety using various classifiers: k-NN, SVM, decision tree, random forest, and XGBoost. Showcased versatility in model selection for addressing psychological well-being in the tech domain.",
     src: "/emotion-detection.png",
