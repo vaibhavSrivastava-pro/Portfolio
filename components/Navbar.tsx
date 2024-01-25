@@ -16,7 +16,7 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
           /> */}
         </div>
-        <h1 className="text-white text-[25px] font-semibold">
+        <h1 className="text-white text-[12px] sm:text-[25px] font-semibold">
           Vaibhav{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
             {" "}
@@ -25,7 +25,7 @@ const Navbar = () => {
         </h1>
       </div>
 
-      <div className="flex flex-row gap-5 mb-2">
+      <div className="flex flex-row gap-5 mb-2 w-1/3 sm:justify-end">
         {Socials.map((social) => (
           <Link href={social.link} key={social.name}>
               <Image

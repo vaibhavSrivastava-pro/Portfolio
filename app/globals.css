@@ -20,3 +20,8 @@ body {
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+.border-gradient {
+  border-image: linear-gradient(to right, #8B5CF6, #DC2626);
+  border-image-slice: 1;
+}

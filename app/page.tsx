@@ -11,11 +11,11 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
-            Hey there, I create{" "}
+          <h1 className="text-[40px] text-white font-semibold w-3/4 sm:w-full">
+            I create{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
-               websites,{" "} ML models{" "} and{" "} other cool stuffs{" "}
+               Websites,{" "} ML models{" "} and{" "} other cool stuffs{" "}
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
@@ -34,7 +34,7 @@ export default function Home() {
               className="rounded-[20px] group relative bg-trasparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20" />
-              My projects
+              Experience & PoW
             </Link>
             <Link
               href="/contact-me"
@@ -52,14 +52,14 @@ export default function Home() {
           href="/my-skills"
           className="rounded-[20px] group bg-blue-500 px-5 py-3 text-lg text-white max-w-[200px]"
         >
-          Learn more
+          Skills
         </Link>
 
         <Link
           href="/my-projects"
           className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
-          My projects
+          Experience & PoW
         </Link>
         <Link
           href="/contact-me"
@@ -75,10 +75,10 @@ export default function Home() {
           alt="horse"
           height={300}
           width={300}
-          className="absolute right-55 top-40"
+          className="absolute right-55 top-40 w-1/2 sm:w-[62%]"
         />
 
-        <Image src="/cliff.webp" alt="cliff" width={480} height={480} />
+        <Image src="/cliff.webp" alt="cliff" width={480} height={480}/>
       </div>
 
       <div className="absolute bottom-0 z-[5] w-full h-auto">

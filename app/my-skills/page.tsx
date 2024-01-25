@@ -14,7 +14,7 @@ const Page = () => {
     >
       <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="font-semibold text-white text-[50px]">
+          <h1 className="font-semibold text-white text-[20px] sm:text-[50px]">
             Skills{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
@@ -45,9 +45,9 @@ const Page = () => {
                 width={skill.width}
                 height={skill.height}
               />
-              <div className="pt-5 flex justify-center">
+              {/* <div className="pt-5 flex justify-center">
                 <p className="text-white text-[10px]">{skill.name}</p>
-              </div>
+              </div> */}
             </SwiperSlide>
           ))}
         </Swiper>
@@ -71,9 +71,9 @@ const Page = () => {
                 width={skill.width}
                 height={skill.height}
               />
-              <div className="pt-5 flex justify-center">
+              {/* <div className="pt-5 flex justify-center">
                 <p className="text-white text-[10px]">{skill.name}</p>
-              </div>
+              </div> */}
             </SwiperSlide>
             
           ))}

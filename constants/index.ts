@@ -16,8 +16,8 @@ export const SkillData = [
   {
     name: "Flask",
     Image: "/flask2.png",
-    width: 80,
-    height: 80,
+    width: 60,
+    height: 60,
   },
   {
     name: "Threejs",
@@ -95,8 +95,8 @@ export const SkillData = [
   {
     name: "Mongo db",
     Image: "/mongodb.png",
-    width: 40,
-    height: 40,
+    width: 30,
+    height: 30,
   },
   {
     name: "Neural Networks",
