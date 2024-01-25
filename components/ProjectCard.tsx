@@ -56,7 +56,7 @@ const ProjectCard = ({ image, title, text, link}: Props) => {
                     <div  className='absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]'/>
                   <div className='flex flex-col gap-20 py-3 z-[30]'>
                     <h1 className='text-whote text-2xl font-semibold'>{title}</h1>
-                    <p className='text-gray-200 text-[12px]'>
+                    <p className='text-gray-200 text-[12px] hidden sm:block'>
                         {text}
                     </p>
                     
