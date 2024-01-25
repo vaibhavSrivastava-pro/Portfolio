@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute  flex bottom-10 z-[60] right-5 flex-col md:hidden gap-5">
+      {/* <div className="absolute  flex bottom-10 z-[60] right-5 flex-col md:hidden gap-5">
         <Link
           href="/my-skills"
           className="rounded-[20px] group bg-blue-500 px-5 py-3 text-sm text-white max-w-[200px]"
@@ -61,13 +61,13 @@ export default function Home() {
         >
           Experience
         </Link>
-        {/* <Link
+        <Link
           href="/contact-me"
           className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-sm text-white max-w-[200px]"
         >
           Contact
-        </Link> */}
-      </div>
+        </Link>
+      </div> */}
 
       <div className="absolute bottom-0 right-0 z-[10]">
         <img
