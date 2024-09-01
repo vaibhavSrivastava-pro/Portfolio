@@ -8,9 +8,10 @@ interface Props {
     title: string;
     text: string;
     link: string;
+    linkToCode: string | undefined;
 }
 
-const ProjectCard = ({ image, title, text, link}: Props) => {
+const ProjectCard = ({ image, title, text, link, linkToCode}: Props) => {
     const [isFlipped, setIsFlipped] = useState(false)
     const [isAnimating, setIsAnimating] = useState(false)
 
@@ -36,15 +37,26 @@ const ProjectCard = ({ image, title, text, link}: Props) => {
             className='w-full h-full group relative flip-card-front bg-cover bg-center text-white rounded-lg p-4'>
                     <div  className='absolute inset-0 w-full h-full rounded-md bg-black opacity-0 group-hover:opacity-40'/>
                     <div className='absolute inset-0 w-full h-full text-[20px] pb-10 hidden group-hover:flex items-center z-[20] justify-center'>
-                    <p >
-                    Learn more &gt;
-                    <br />
-                    <Link 
-                      href={`${link}`}
-                      className="hover:text-red-500"
-                    >
-                      Link
-                    </Link>
+                    <p className="text-center leading-12">
+                      Click on Card to Learn more &gt;
+                      <br />
+                      {link && (
+                        <Link 
+                          href={`${link}`}
+                          className="hover:text-red-500"
+                        >
+                          Live Link
+                        </Link>
+                      )}
+                      <br />
+                      {linkToCode && (
+                        <Link 
+                          href={`${linkToCode}`}
+                          className="hover:text-red-500"
+                        >
+                          Link to Code
+                        </Link>
+                      )}
                     </p>
                     </div>
                     <div>

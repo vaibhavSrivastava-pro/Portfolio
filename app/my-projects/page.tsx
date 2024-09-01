@@ -69,6 +69,7 @@ const Page = () => {
               text={project.text}
               image={project.src}
               link={project.link}
+              linkToCode={project.linkToCode}
           />
         ))}
         </motion.div>
