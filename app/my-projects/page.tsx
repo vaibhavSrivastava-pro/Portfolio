@@ -19,6 +19,20 @@ const Page = () => {
           <div className="flex justify-center">
         <h1 className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 mb-4 border-b-4 border-gradient'>Work Experience</h1>
         </div>
+
+        <motion.div 
+          initial={{ opacity: 0, y: -100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className='grid grid-cols-1 gap-5 max-w-[100%] max-h-[100%] '>
+          <ExperienceCard
+            company='Philips'
+            role='SDE Intern'
+            duration='August 2024 - Present'
+            technologies=''
+            desc=''
+          /> 
+        </motion.div>
         
         <motion.div 
           initial={{ opacity: 0, y: -100 }}
@@ -28,8 +42,16 @@ const Page = () => {
           <ExperienceCard
             company='VisaKwik'
             role='Full Stack Developer'
-            duration='Nov 2023 - Present'
+            duration='Nov 2023 - March 2024'
             technologies='Next.js, Flask, SQL, Typescript, Python'
+            desc={
+              <>
+                Made RESTful APIs <br />
+                Created interactive UIs <br />
+                Integrated LLMs <br />
+                Worked on large scale projects
+              </>
+            }
           /> 
         </motion.div>
         <div className="flex justify-center">

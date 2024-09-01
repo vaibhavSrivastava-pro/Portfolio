@@ -141,12 +141,24 @@ export const Socials = [
   },
 ];
 export const Projects = [
-  // {
-  //   title: "Modern Nextjs Website",
-  //   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-  //   src: "/NextWebsite.png",
-  //   link: ""
-  // },
+  {
+    title: "Senses",
+    text: "A real-time chat app with React, Firebase, and WebSockets for multiple users, handling frequent messages. Integrated a CNN-based TensorFlow model for Indian Sign Language translation with high accuracy. Enhanced voice message clarity using Large Language Models, aiding people with speech disabilities.",
+    src: "/senses.png",
+    link: "https://senses2-ow8viw0kj-vaibhav-srivastavas-projects.vercel.app/"
+  },
+  {
+    title: "InStore",
+    text: `An AI-powered app that enhances in-store shopping by allowing users to chat with the app for real-time product information, ingredient details, and safety advice. Users can compare products by taking photos and receive instant insights to make informed decisions. The app also streamlines checkout by generating bills instantly and supporting multiple payment methods, eliminating the need to wait in line.`,
+    src: "/inStore.png",
+    link: "https://in-store-mocha.vercel.app/"
+  },
+  {
+    title: "BookWise",
+    text: "An ADHD-friendly Book Reader providing chapter-wise summaries for a wide range of books from Project Gutenberg. Enhanced readability using formats like Bionic Reading and created flashcard-style summaries with expandable details to minimize information loss. Included features like an AI-powered debate section, a tool that converts highlights into detailed notes, and a dedicated area for personal annotations.",
+    src: "/bookWise.png",
+    link: "https://bookwise-back.vercel.app/"
+  },
   {
     title: "Living Lores(with admin panel)",
     text: "A full-stack website, 'Living Lores,' using Next.js 14 and MongoDB, offering a dedicated platform for aspiring story writers. Seamlessly integrating front-end and back-end technologies, the project provides a dynamic space for creative expression and storytelling.",
