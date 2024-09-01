@@ -125,6 +125,16 @@ export const Socials = [
     link: "https://github.com/vaibhavSrivastava-pro"
   },
   {
+    name: "Leetcode",
+    src: "/leetcode.png",
+    link: "https://leetcode.com/u/itsrivaibhav/"
+  },
+  {
+    name: "Hugging Face",
+    src: "/hugging-face.png",
+    link: "https://huggingface.co/itsrivaibhav"
+  },
+  {
     name: "LinkedIn",
     src: "/linkedin.svg",
     link: "https://www.linkedin.com/in/vaibhav-srivastava-8a777125a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
