@@ -184,6 +184,13 @@ export const Projects = [
     linkToCode:"https://github.com/vaibhavSrivastava-pro/ioni-rec"
   },
   {
+    title: "Shakespeare-GPT, Gita-GPT and more(Fine-Tuned LLMs)",
+    text: `Shakespeare GPT," "Gita GPT," and other specialized AI models, fine-tuned with QLoRA on robust, domain-specific datasets. Utilized low-rank adaptation, mixed-precision training, and gradient checkpointing for performance optimization and reduced computational overhead. "Shakespeare GPT" offers context-aware Shakespearean responses, while "Gita GPT" delivers nuanced insights into the Bhagavad Gita. These models showcase advanced contextual understanding and stylistic precision, available on my Hugging Face repository.`,
+    src: "/hf.png",
+    link: "",
+    linkToCode: "https://huggingface.co/itsrivaibhav"
+  },
+  {
     title: "Anxiety induced due to video gaming prediction model",
     text: "A machine learning model predicting video gaming-induced anxiety using various classifiers: k-NN, SVM, decision tree, random forest, and XGBoost. Showcased versatility in model selection for addressing psychological well-being in the tech domain.",
     src: "/anxiety.png",
@@ -191,11 +198,11 @@ export const Projects = [
     linkToCode: "https://github.com/vaibhavSrivastava-pro/AnxietyPredictionModel"
   },
   {
-    title: "Drive Drowsiness Detection Model",
+    title: "Driver Drowsiness Detection Model",
     text: "A driver drowsiness detection model utilizing CNN and computer vision. Implemented a robust system to identify drowsiness, providing timely alerts to enhance road safety",
     src: "/drowsiness.png",
     link: "",
-    linToCode: "https://github.com/vaibhavSrivastava-pro/DriverDrowsinessDetection"
+    linkToCode: "https://github.com/vaibhavSrivastava-pro/EmotionDetection"
   },
   {
     title: "Facial Emotion Detection Model using CNN",
